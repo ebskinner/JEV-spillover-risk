@@ -25,6 +25,7 @@ Map.addLayer(piggeries, {min: 0, max: 1, palette: ['black', 'white']}, 'Piggerie
 Map.addLayer(feral_pigs, {min: 0, max: 1, palette: ['black', 'white']}, 'Feral Pigs');
 ```
 ### Step 2: Adding constants into Google Earth Engine ###
+All constants were calculated from Australian vector and host datasets from van den Hurk, A. F., Skinner, E., Ritchie, S. A., & Mackenzie, J. S. (2022). The emergence of Japanese encephalitis virus in Australia in 2022: existing knowledge of mosquito vectors. Viruses, 14(6), 1208.
 
 ```javascript
 // Constants for Culex annulirostris (Vector A)
